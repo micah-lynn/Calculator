@@ -1,0 +1,92 @@
+html {
+    margin: 0px;
+    padding: none;
+}
+
+body {
+    margin: 0px;
+}
+
+.main-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.calc-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.calc-display {
+    background-color: black;
+    text-align: right;
+    padding: 0em 2em;
+}
+
+.display-filler {
+    color: white;
+    font-size: 3em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.calc-inputs {
+    display: flex;
+}
+
+.operators {
+    width: 20%;
+}
+
+.op-btn-group {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0px;
+}
+
+.op-btn-element {
+    width: 100%;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+.numbers {
+    width: 80%;
+}
+
+.num-btn-group {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    list-style: none;
+    padding: 0px;
+}
+
+.num-btn-element {
+    width: 33%;
+    text-align: center;
+    margin: 5px 0px;
+}
+
+#double-space {
+    width: 66%;
+}
+
+.clr-div {
+    text-align: center;
+}
+
+.clr-btn {
+    border-style: none;
+    border-radius: 0px;
+    width: 100%;
+    height: auto;
+    padding: 5px 0px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    cursor: pointer;
+}
