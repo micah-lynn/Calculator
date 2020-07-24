@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Calculator</title>
-        <link rel="stylesheet" href="main.css">
-    </head>
-    <body>
-        <h1 class="main-heading">Web Calculator</h1>
-        <div class="calc-container">
-            <div class="calc-display">
-                <p class="display-filler">0</p>
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1 class="main-heading">Web Calculator</h1>
+    <div class="calc-container">
+        <div class="calc-display">
+            <p class="display-number">0</p>
+        </div>
+        <div class="calc-inputs">
+            <div class="operators">
+                <ul class="op-btn-group">
+                    <li class="op-btn-element"><button class="operator">+</button></li>
+                    <li class="op-btn-element"><button class="operator">-</button></li>
+                    <li class="op-btn-element"><button class="operator">x</button></li>
+                    <li class="op-btn-element"><button class="operator">÷</button></li>
+                    <li class="op-btn-element"><button class="equal">=</button></li>
+                </ul>
             </div>
-            <div class="calc-inputs">
-                <div class="operators">
-                    <ul class="op-btn-group">
-                        <li class="op-btn-element"><button>+</button></li>
-                        <li class="op-btn-element"><button>-</button></li>
-                        <li class="op-btn-element"><button>*</button></li>
-                        <li class="op-btn-element"><button>/</button></li>
-                        <li class="op-btn-element"><button>=</button></li>
-                    </ul>
-                </div>
-                <div class="numbers">
-                    <ul class="num-btn-group">
-                        <li class="num-btn-element" id="double-space"><button>0</button></li>
-                        <li class="num-btn-element"><button>.</button></li>
-                        <li class="num-btn-element"><button>1</button></li>
-                        <li class="num-btn-element"><button>2</button></li>
-                        <li class="num-btn-element"><button>3</button></li>
-                        <li class="num-btn-element"><button>4</button></li>
-                        <li class="num-btn-element"><button>5</button></li>
-                        <li class="num-btn-element"><button>6</button></li>
-                        <li class="num-btn-element"><button>7</button></li>
-                        <li class="num-btn-element"><button>8</button></li>
-                        <li class="num-btn-element"><button>9</button></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="clr-div">
-                <button class="clr-btn">clear</button>
+            <div class="numbers">
+                <ul class="num-btn-group">
+                    <li class="num-btn-element" id="double-space"><button class="number" value="0">0</button></li>
+                    <li class="num-btn-element"><button class="decimal">.</button></li>
+                    <li class="num-btn-element"><button class="number">1</button></li>
+                    <li class="num-btn-element"><button class="number">2</button></li>
+                    <li class="num-btn-element"><button class="number">3</button></li>
+                    <li class="num-btn-element"><button class="number">4</button></li>
+                    <li class="num-btn-element"><button class="number">5</button></li>
+                    <li class="num-btn-element"><button class="number">6</button></li>
+                    <li class="num-btn-element"><button class="number">7</button></li>
+                    <li class="num-btn-element"><button class="number">8</button></li>
+                    <li class="num-btn-element"><button class="number">9</button></li>
+                </ul>
             </div>
         </div>
-        <script src="script.js"></script>
-    </body>
+        <div class="clr-back-div">
+            <button class="clr-btn">clear</button>
+            <button class="backspace">‹–</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
 </html>
